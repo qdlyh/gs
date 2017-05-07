@@ -22,19 +22,19 @@
 			<div class="head-right">
 				<ul>
 					<li><a href="">手机版 <img src="images/shouji.jpg" alt=""></a></li>
-					<li class="head-kf"><a href="">联系客服 <img src="images/xiala.jpg" alt=""></a>
-					    <!--<ul>
+				<li class="head-nav"><a href="">联系客服 <img src="images/xiala.jpg" alt=""></a>
+					    <ul>
 					    	<li><a href="">会员</a></li>
 					    	<li><a href="">会员</a></li>
-					    </ul>-->
-					</li>
+					    </ul>
+			   </li>
 					<li><a href=""><img src="images/gouwu.jpg" alt="" style="float: left;"> 购物车0件</a></li>
-					<li class="head-hy"><a href="">会员中心 <img src="images/xiala.jpg" alt=""></a>
-					   <!--<ul>
+				<li class="head-nav"><a href="">会员中心 <img src="images/xiala.jpg" alt=""></a>
+					   <ul>
 					    	<li><a href="">会员</a></li>
 					    	<li><a href="">会员</a></li>
-					    </ul>-->
-					</li>
+					   </ul>
+				</li>
 				</ul>
 			</div>
 		 </div>	
@@ -197,6 +197,17 @@
 	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
 	<script type="text/javascript" src="js/jquery.glide.min.js"></script>
 	<script type="text/javascript">
+	    $(function(){
+	    	$('.head-nav').mouseover(function(){
+	    		$(this).children('ul').show()
+	    	})
+	    	$('.head-nav').mouseout(function(){
+	    		$(this).children('ul').hide()
+	    	})
+	    })
+
+
+
 			var glide = $('.slider').glide({
 					//autoplay:true,//是否自动播放 默认值 true如果不需要就设置此值
 					animationTime:500, //动画过度效果，只有当浏览器支持CSS3的时候生效

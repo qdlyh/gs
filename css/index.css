@@ -26,6 +26,11 @@
     float: right;
     padding-right: 30px;
 }
+
+/*二级菜单*/
+.head-nav ul{
+	display: none;
+}
 .head-right img{
     float: right;
 }
