@@ -2,69 +2,9 @@
 .home{
 	 min-width:1200px;
 }
-.head{
-	height: 30px;
-	background: #F5F5F5;
-}
-.head ul li a{
-    color:#999999;
-    font-size: 14px;
-}
-.head-left ul{
-	padding-left: 15%;
-	line-height: 30px;
-}
-.head-right ul{
-	padding-right: 15%;
-	line-height: 30px;
-}
-.head-left ul li{
-    float: left;
-    padding-left: 30px;
-}
-.head-right ul li{
-    float: right;
-    padding-right: 30px;
-}
-
-/*二级菜单*/
-.head-nav ul{
-	display: none;
-}
-.head-right img{
-    float: right;
-}
-.head-top{
-	height: 100px;
-	background-image:url(../images/nav.jpg);             /*logo背景图*/
-}
-.head-logo{
-	height: 74px;
-	background-image:  url(../images/logo.png);   /*奉请热线文字图*/
-	background-repeat:no-repeat;
-    background-position:center;
-}
-.nav{
-	background: #633900;
-	height: 50px;
-}
-.nav ul{
-	width: 800px;
-	margin: 0 auto;
-}
-.nav ul li{
-	float: left;
-	padding-left: 20px;
-	line-height: 50px;
-    width: 100px;
-    margin: 0 auto;
-    text-align: center;
-}
-.nav ul li a{
-	color: #ffffff;
-}
-.nav ul li:hover{
-	background:#CC9900;
+.content{
+	height: 5200px;
+	background-image:url(../images/54465132.jpg); 
 }
 /*.section-1{
 	width: 100%;
@@ -96,10 +36,6 @@
 	background-image:url(../images/banner.jpg); 
 	background-position: top center;
     background-repeat: no-repeat;
-}
-.content{
-	height: 5200px;
-	background-image:url(../images/54465132.jpg); 
 }
 .section-2{
 	height: 421px;
@@ -199,74 +135,3 @@
 	float: left;
 	padding-right: 20px;
 }
-.footer{
-	height: 160px;
-	padding-top: 30px;
-}
-.footer-box ul{
-	padding-left: 20%;
-}
-.footer-box ul li{
-	float: left;
-	padding-left: 40px;
-}
-.footer-box h4{
-	color: #633816;
-	margin-bottom: 5px;
-}
-.footer-box ul li a{
-	font-size: 14px;
-	color: #8D6241;
-}
-.footer-box2{
-	float: right;
-	padding-right: 18%;
-}
-.footer-box2 h4{
-	color: #8D6241;
-}
-.footer-box2-wx{
-	width: 230px;
-	height: 110px;
-	margin-top: 20px;
-}
-.footer-wx-span{
-	float:left;
-	width: 115px;
-	height: 95px;
-	padding-right: 10px;
-	color: #8D6241; 
-}
-
-
-
-      @media screen and (min-width:320px) and ( max-width:568px){
-               html{
-                font-size:16px;
-              }
-        }
-        @media screen and (min-width:414px) and ( max-width:736px){
-               html{
-                font-size:16px;
-              }
-        }
-        @media screen and (min-width:737px) and ( max-width:1023px){
-               html{
-                font-size:16px;
-              }
-        }
-         @media screen and (min-width:1024px) and ( max-width:1366px){
-               html{
-                font-size:16px;
-              }
-
-
-        }
-        @media screen and (min-width:1367px){
-               html{
-                font-size:16px;
-              }
-
-
-        }
-
