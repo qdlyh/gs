@@ -1,0 +1,67 @@
+*{padding: 0;margin: 0;list-style-type:none; text-decoration:none;}
+.home{
+	 min-width:1200px;
+}
+.section-1{
+	height:749px;
+	background-image: url(../../images/zcpixiu/15616515.jpg);  /* 顶部主页图 */
+	background-position: top center;
+    background-repeat: no-repeat;
+}
+.content{
+	background-image:url(../../images/zcpixiu/21651651.jpg);  /* 大背景图 */
+}
+.section-2{
+	height: 922px;
+	background-image:url(../../images/zcpixiu/15615651.jpg);
+	background-repeat:no-repeat;
+    background-position:center;
+}
+.section-3{
+	height: 1523px;
+	background-image:url(../../images/zcpixiu/156165156.png);
+	background-repeat:no-repeat;
+    background-position:center;
+}
+.section-4{
+	height: 1506px;
+	background-image:url(../../images/zcpixiu/1561561.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-5{
+	height: 1498px;
+	background-image:url(../../images/zcpixiu/16116515.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-6{
+	height: 1503px;
+	background-image:url(../../images/zcpixiu/15616516.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-7{
+	height: 1513px;
+	background-image:url(../../images/zcpixiu/165156156.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-8{
+	height: 1293px;
+	background-image:url(../../images/15516165.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-9{
+	height: 612px;
+	background-image:url(../../images/1654156.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-9-box{
+	height: 612px;
+	background-image:url(../../images/6545616.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}

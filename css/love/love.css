@@ -1,0 +1,57 @@
+*{padding: 0;margin: 0;list-style-type:none; text-decoration:none;}
+.home{
+	 min-width:1200px;
+}
+.section-1{
+	height:749px;
+	background-image: url(../../images/love/156156156.jpg);  /* 顶部主页图 */
+	background-position: top center;
+    background-repeat: no-repeat;
+}
+.content{
+	background-image:url(../../images/love/156116516.jpg);  /* 大背景图 */
+}
+.section-2{
+	height: 920px;
+	background-image:url(../../images/love/16511561.png);
+	background-repeat:no-repeat;
+    background-position:center;
+}
+.section-3{
+	height: 5280px;
+	background-image:url(../../images/love/215561561.jpg);
+	background-repeat:no-repeat;
+    background-position:center;
+}
+.section-4{
+	height: 175px;
+	margin: 30px 0;
+	background-image:url(../../images/love/1561561561.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-4 p{
+	text-align: center;
+	padding-top: 50px;
+	font-size: 30px;
+	font-family: "LiSu","SimSun","Microsoft YaHei";
+	color: #c8342d;
+}
+.section-5{
+	height: 1293px;
+	background-image:url(../../images/15516165.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-6{
+	height: 612px;
+	background-image:url(../../images/1654156.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-6-box{
+	height: 612px;
+	background-image:url(../../images/6545616.png);
+	background-repeat:no-repeat;
+    background-position:center;	
+}

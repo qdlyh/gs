@@ -1,0 +1,110 @@
+*{padding: 0;margin: 0;list-style-type:none; text-decoration:none;}
+.home{
+	 min-width:1200px;
+}
+.section-1{
+	height:749px;
+	background-image: url(../../images/jxw/1651321.jpg);  /* 顶部主页图 */
+	background-position: top center;
+    background-repeat: no-repeat;
+}
+.content{
+	height: 10966px;
+	background-image:url(../../images/jxw/651651.jpg);  /* 大背景图 */
+}
+.section-2{
+	height: 310px;
+	background-image:url(../../images/jxw/6513221.png);
+	background-repeat:no-repeat;
+    background-position:center;
+}
+.section-3{
+	height: 665px;
+	background-image:url(../../images/jxw/14561631.png);
+	background-repeat:no-repeat;
+    background-position:center;
+}
+.section-4{
+	height: 787px;
+	margin-top: 40px;
+	background-image:url(../../images/jxw/516165.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-5{
+	height: 790px;
+	margin-top: 40px;
+	background-image:url(../../images/jxw/16515213.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-6{
+	height: 788px;
+	margin-top: 40px;
+	background-image:url(../../images/jxw/1615635.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-7{
+	height: 788px;
+	margin-top: 40px;
+	background-image:url(../../images/jxw/8591695.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-8{
+	height: 791px;
+	margin-top: 40px;
+	background-image: url(../../images/jxw/1651651.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-9{
+	height: 791px;
+	margin-top: 40px;
+	background-image: url(../../images/jxw/156156.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-10{
+	height: 791px;
+	margin-top: 40px;
+	background-image: url(../../images/jxw/151561.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-11{
+	height: 789px;
+	margin-top: 40px;
+	background-image: url(../../images/jxw/1561615.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-12{
+	height: 790px;
+	margin-top: 40px;
+	background-image: url(../../images/jxw/4156165.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-13{
+	height: 790px;
+	margin-top: 40px;
+	background-image: url(../../images/jxw/15616516.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-14{
+	height: 790px;
+	margin-top: 40px;
+	background-image: url(../../images/jxw/1561611.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
+.section-15{
+	height: 790px;
+	margin-top: 40px;
+	background-image: url(../../images/jxw/5615161.jpg);
+	background-repeat:no-repeat;
+    background-position:center;	
+}
