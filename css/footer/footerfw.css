@@ -1,0 +1,45 @@
+.home{
+	 min-width:1200px;
+}
+.content{
+	max-width: 1200px;
+	margin: 20px auto;
+	text-align: center;
+}
+.section-1{
+	width: 217px;
+	height:428px;
+    float: left;
+	background-image: url(../../images/footer/21515611.jpg);  /* 侧边导航栏背景图 */
+	background-position: top center;
+    background-repeat: no-repeat;
+}
+.section-1-box{
+    margin-top: 30px;    
+}
+.section-1-box ul li{
+    padding: 10px 0; 
+}
+.section-1-box ul a{
+    color: #8a5e3a;
+}
+.section-2{
+	width: 962px;
+	height: 566px;
+    display: inline-block;
+	background-image:url(../../images/footer/1156151.jpg);
+	background-repeat:no-repeat;
+    background-position:center;
+    position: relative;
+}
+.section-2-box{
+	position: absolute; 
+    margin: auto;   
+    bottom: 30px; 
+    left: 0;
+    right: 0;  
+}
+.section-2-box p{
+	line-height: 25px;
+	color: #333333;
+}

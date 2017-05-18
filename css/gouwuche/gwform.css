@@ -65,21 +65,11 @@
 .colour-input3{ 
   color:#FF3333 ; 
 } 
-  .colour-input4{ 
+.colour-input4{ 
   color:#33FF33;  
 }
 .xinxi-button:hover{
   background:#00BBFF;
-}
-.wpcolor{
-  display: inline-block;
-  background:#EEEEEE;
-  width:85%;
-  margin-top:10px;
-  border: 1px solid #ffffff;
-}
-.wpcolor-a{
-  border: 1px solid #FD0000;
 }
 /*#sumMoney{
   font-size:18px;

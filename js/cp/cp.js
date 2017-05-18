@@ -1,4 +1,18 @@
-﻿//鼠标经过预览图片函数
+﻿	
+	/* 生肖选择框 */
+          var section_1_sx = document.getElementById("section-1-right-span"); 
+          var section_1_span = section_1_sx.getElementsByTagName("span"); 
+             for(i = 0; i < section_1_span.length; i++){ 
+                  section_1_span[i].index = i;
+                  section_1_span[i].onclick = function(){  
+                    for(i = 0; i < section_1_span.length; i++){ 
+                        section_1_span[i].className = '';                      
+                    }   
+                        section_1_span[this.index].className = 'section-1-right-sx';                  
+                } 
+            }
+
+//鼠标经过预览图片函数
 function preview(img){
 	$("#preview .jqzoom img").attr("src",$(img).attr("src"));
 	$("#preview .jqzoom img").attr("jqimg",$(img).attr("bimg"));

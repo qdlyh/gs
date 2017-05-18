@@ -13,25 +13,25 @@
 	background-position: top center;
     background-repeat: no-repeat;
 }*/
-.section-1-box1{
+.section-1-box-1{
 	height: 749px;
 	background-image:url(../images/banner.jpg); 
 	background-position: top center;
     background-repeat: no-repeat;
 }
-.section-1-box2{
+.section-1-box-2{
 	height: 749px;
 	background-image:url(../images/banner.jpg); 
 	background-position: top center;
     background-repeat: no-repeat;
 }
-.section-1-box3{
+.section-1-box-3{
 	height: 749px;
 	background-image:url(../images/banner.jpg); 
 	background-position: top center;
     background-repeat: no-repeat;
 }
-.section-1-box4{
+.section-1-box-4{
 	height: 749px;
 	background-image:url(../images/banner.jpg); 
 	background-position: top center;
@@ -44,11 +44,27 @@
     background-position:center;
 }
 .section-3{
-	height: 956px;
-	background-image:url(../images/1651165.jpg);
-	background-repeat:no-repeat;
-    background-position:center;
+	max-width: 1000px;
+	height: 900px;
+	margin: 0 auto;
 }
+.section-cp-box{                                 /* 每个产品宽度 */
+	width: 290px;
+	float: left;
+	padding: 5px;
+}
+.section-cp-box-jg{                              /* 每个产品价格背景图 */
+	height: 80px;
+    text-align: center;
+    background-image:url(../images/jiaju/1665156156.jpg);	
+	background-repeat:no-repeat;
+}
+.section-cp-box-jg a{                          /* 每个产品价格文字 */
+	color: #e0ca93;
+	font-family: "Microsoft YaHei ";
+	line-height: 40px;
+}
+
 .section-4{
 	height: 564px;
 	background-image:url(../images/1655611.png);

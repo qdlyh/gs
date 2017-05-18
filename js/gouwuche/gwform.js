@@ -1,11 +1,5 @@
 //地区
      new PCAS('location_p', 'location_c', 'location_a', '北京市', '', '');　
-
-//产品外边框
-　　　$('.wpcolor').click(function(){
-    　　　$(this).toggleClass('wpcolor-a');
-　　　})
-
    //命名                  
           var username_1 = $('input[name="username"]'),
               number_1 = $('input[name="number"]'),

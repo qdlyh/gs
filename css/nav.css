@@ -1,5 +1,12 @@
 *{padding: 0;margin: 0;list-style-type:none; text-decoration:none;}
-
+.color-red{
+	font-weight: bolder;          /*深红*/
+	color: #ff0000;
+}
+.color-red1{                      /*暗红*/
+	font-weight: bolder;
+	color: #86282d;
+}
 /*顶部菜单*/
 .head{
 	height: 30px;
@@ -32,7 +39,7 @@
 }
 
 /*二级菜单*/
-.head-nav ul{
+.head-nav ul{      /* 顶部二级菜单  */
 	width: 120px;
 	height: 80px;
 	background:#F7F7F7;
@@ -64,7 +71,7 @@
 .nav ul li{
 	float: left;
 	line-height: 50px;
-    margin-left: 30px;
+    margin-left: 60px;
     text-align: center;
 }
 .nav ul a{
@@ -83,6 +90,32 @@
 .active a{
 	background: #CC9900;
 }
+ /* 底部二级菜单  */
+ .active{
+ 	display:none;
+ }
+.footer-nav ul{        
+
+	display: none;
+}
+.footer-nav ul li{
+	padding: 0;
+}
+.footer-nav ul a{
+	display:inline-block;
+	width: 145px;
+	height:40px;
+	line-height: 40px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;	
+}
+.footer-nav ul a:hover{
+    color: #ffffff;
+    background: #a7150d;
+}
+ /* 底部二级结束  */
 .footer{
 	max-width: 1200px;
 	margin: 0 auto;

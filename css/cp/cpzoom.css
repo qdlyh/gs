@@ -1,6 +1,5 @@
 .container{ 
-	width:280px;
-	height:auto;  345
+	width:340px;
 	display: inline-block;
 	float: left;
 	overflow:hidden;
@@ -15,6 +14,9 @@
 	cursor:pointer;
 	margin:0px;
 	display:block;
+}
+.jqzoom img{
+    width: 100%;
 }
 .zoomdiv{
 	z-index:100;
@@ -43,14 +45,12 @@
 }
 /*图片小图预览列表*/
 .spec-preview{
-	width:350px;
-	height:350px;
+	height:340px;
 	border:1px solid #DFDFDF;
 }
 .spec-scroll{
 	width:280px;
 	clear:both;
-	margin-top:5px;
 }
 .spec-scroll .prev{
 	float:left;
@@ -61,7 +61,6 @@
 }
 .spec-scroll .prev,.spec-scroll .next{
 	display:block;
-	font-family:"宋体";
 	text-align:center;
 	width:10px;
 	height:54px;

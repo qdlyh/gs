@@ -51,19 +51,25 @@
 .section-1-right-box{
 	padding:20px 0 0 20px;
 }
+.section-1-right-box p{             
+	padding:3px 0;
+}
 .section-1-right-box p{
 	line-height: 25px;
 }
-.section-1-right-cp{              /*产品红框*/
+#section-1-right-span span{              /*产品框*/
 	display: inline-block;
-	margin: 10px 0;
-	width: 185px;
+	margin: 5px 0;
+	width: 40px;
 	height: 40px;
-	color: #ff0000;
+	color: #333333;
 	text-align: center;
 	line-height: 40px;
-    border: 2px solid #ff0000;
+    border: 2px solid #b8b7bd;
     cursor: pointer;
+}
+.section-1-right-sx{
+    border: 2px solid #ff0000 !important;
 }
 .section-1-btn a{                /*产品按钮*/
    display:block;
@@ -71,7 +77,7 @@
    height: 35px;
    font-size: 18px;
    line-height: 35px;
-   margin: 40px auto;
+   margin: 10px auto;
    text-align: center;
    color: #ffffff;
    background: linear-gradient(#d41c1c , #821211);

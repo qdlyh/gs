@@ -9,15 +9,43 @@
 .content{
 	background-image:url(../../images/jiaju/1561561.jpg);  /* 大背景图 */
 }
+.content-box{
+	max-width: 1200px;
+	margin: 0 auto;
+}
 .section-2{
 	height: 1032px;
-	background-image:url(../../images/jiaju/1561561.png);
+}
+.section-2-top{                                  /* 产品标题  */
+	height: 183px;
+	padding: 30px 0;
+    background-image:url(../../images/jiaju/15216516.png);	
 	background-repeat:no-repeat;
     background-position:center;
 }
+.section-cp-box{                                 /* 每个产品宽度 */
+	width: 290px;
+	float: left;
+	padding: 5px;
+}
+.section-cp-box-jg{                              /* 每个产品价格背景图 */
+	height: 80px;
+    text-align: center;
+    background-image:url(../../images/jiaju/1665156156.jpg);	
+	background-repeat:no-repeat;
+}
+.section-cp-box-jg a{                          /* 每个产品价格文字 */
+	color: #f0e1a4;
+	font-family: "Microsoft YaHei ";
+	line-height: 40px;
+}
 .section-3{
 	height: 1014px;
-	background-image:url(../../images/jiaju/5613213.png);
+}
+.section-3-top{                                  /* 产品标题  */
+	height: 183px;
+	padding: 30px 0;
+    background-image:url(../../images/jiaju/15216516.png);	
 	background-repeat:no-repeat;
     background-position:center;
 }
