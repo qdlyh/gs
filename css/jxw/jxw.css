@@ -50,6 +50,10 @@
 	height: 400px;
 	text-align: center;
 }
+.section-cp-big img{
+	width: 275px;
+	height: 400px;
+}
 .section-cp-box-big{  
     width: 280px;                          /*   大产品底部文字背景图   */
 	height: 80px;
@@ -67,6 +71,10 @@
 	float: right;
 	padding: 5px;
 	position: relative;
+}
+.section-cp-box img{
+	width: 250px;
+	height: 230px;
 }
 .section-cp-box-jg{                              /* 每个产品价格背景图 */
 	height: 50px;

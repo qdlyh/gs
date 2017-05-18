@@ -28,7 +28,12 @@
 	float: left;
 	padding: 5px;
 }
+.section-cp-box img{
+	width: 290px;
+	height: 290px;
+}
 .section-cp-box-jg{                              /* 每个产品价格背景图 */
+	width: 290px;
 	height: 80px;
     text-align: center;
     background-image:url(../../images/jiaju/1665156156.jpg);	

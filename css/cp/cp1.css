@@ -17,7 +17,6 @@
 }
 .section-1{
 	height: 490px;
-	padding-top: 50px;
 	background-image:url(../../images/cp/156136.jpg);
 	background-repeat:no-repeat;
     background-position:center;                     
@@ -93,29 +92,25 @@
 }
 
 .section-2{
-	height: 819px;
-	background-image:url(../../images/cp/15613213.png);
-	background-repeat:no-repeat;
-    background-position:center;
+	text-align: center;
+}
+.section-2 img{
+	width: 790px;
 }
 .section-3{
-	height: 7157px;
-    margin-top: 30px;
-	background-image:url(../../images/cp/416941.jpg);
-	background-repeat:no-repeat;
-    background-position:center;
+	
 }
-.section-4{
+.section-4{                                  /*第二张背景图*/
 	height: 717px;
 	background-image:url(../../images/cp/1513256.jpg);
 	background-repeat:no-repeat;
     background-position:center;
 }
-.section4-box{
-	height: 681px;
-	background-image:url(../../images/cp/1651561.jpg);
-	background-repeat:no-repeat;
-    background-position:center;	
+.section4-box{    
+    text-align: center; 
+}
+.section4-box img{
+	width: 790px;                
 }
 .section-5{
 	height: 612px;

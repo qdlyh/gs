@@ -43,10 +43,11 @@
 	width: 320px;
 	float: right;
 	padding: 5px;
-	margin-top: 15px;
+	margin-top: 7px;
 }
 .section-cp-box img{
-	width: 320px;	
+	width: 320px;
+	height: 230px;
 }
 .section-cp-box-jg{                              /* 每个产品价格背景图 */
 	height: 80px;
