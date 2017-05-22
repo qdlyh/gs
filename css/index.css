@@ -147,7 +147,7 @@
 	height: 1px;
 	background: #D2C6B8;
 }
-.section-8-time span{
+.section-8-time span{                   /* 日期字号大小 */
 	font-size: 40px;
 	color: #552C0C;
 }

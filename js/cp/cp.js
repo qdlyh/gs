@@ -8,9 +8,19 @@
                     for(i = 0; i < section_1_span.length; i++){ 
                         section_1_span[i].className = '';                      
                     }   
-                        section_1_span[this.index].className = 'section-1-right-sx';                  
+                        section_1_span[this.index].className = 'section-1-right-sx1';                  
                 } 
             }
+
+         $(function(){
+      	 $('.section-1-btnsx').click(function(){
+           if ($('#section-1-right-span').children('span').hasClass('section-1-span-sx')){ 
+               alert("请选择商品");
+               return false;
+           }else if ($('#section-1-right-span').children('span').hasClass('section-1-span-sx1')) {}
+               alert('选择成功')
+        })
+     })
 
 //鼠标经过预览图片函数
 function preview(img){

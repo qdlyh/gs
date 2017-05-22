@@ -15,14 +15,41 @@
     background-repeat: no-repeat;
 }
 .section-1-box{
-    margin-top: 30px;    
+	width: 150px;
+	margin:50px auto;
 }
-.section-1-box ul li{
-    padding: 10px 0; 
+.section-1-active{
+	font-size:16px; 
+	display: block; 
+	height:36px;
+	line-height: 36px;
+	color: #8a5e3a;
 }
-.section-1-box ul a{
-    color: #8a5e3a;
+.section-1-active-none{
+	display: none;                 /*子菜单隐藏*/
 }
+.section-1-active-none li{
+	padding: 5px 0;
+}
+.section-1-active-none a{
+	display: block;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #8a5e3a;
+}
+.section-1-active-none a:hover{
+	background: #a7150d;
+	color: #ffffff;
+}
+.section-1-active{ 
+	background:url(../../images/footer/off.png) no-repeat 23px center;  /*+号背景图*/
+}
+.section-1-actives{
+	background:url(../../images/footer/on.png) no-repeat 23px center;    /*-号背景图*/
+} 
+
 .section-2{
 	width: 962px;
 	height: 566px;

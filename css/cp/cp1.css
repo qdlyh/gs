@@ -17,13 +17,14 @@
 }
 .section-1{
 	height: 490px;
+	padding-top: 12px;
 	background-image:url(../../images/cp/156136.jpg);
 	background-repeat:no-repeat;
     background-position:center;                     
 }
 .section-1-box{
 	max-width: 800px;
-	margin: 12px auto;
+	margin: 30px auto;
 }
 .section-1-right{
 	width: 435px;
@@ -61,14 +62,18 @@
 	margin: 5px 0;
 	width: 40px;
 	height: 40px;
-	color: #333333;
 	text-align: center;
 	line-height: 40px;
     border: 2px solid #b8b7bd;
     cursor: pointer;
 }
-.section-1-right-sx{
-    border: 2px solid #ff0000 !important;
+.section-1-span-sx:hover{                       /* 生肖经过边框*/
+    border: 2px solid #F40000 !important;
+    color: #F40000;	
+}
+.section-1-right-sx1{                          /* 生肖点击边框*/
+    border: 2px solid #F40000 !important;
+    color: #f40000;
 }
 .section-1-btn a{                /*产品按钮*/
    display:block;
