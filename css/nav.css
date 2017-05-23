@@ -76,7 +76,7 @@
 }
 .nav ul a{
 	display:inline-block;
-	width: 165px;
+	width: 140px;
 	height:50px;
 	color: #ffffff;
     -webkit-transition: all 0.3s ease-in-out;
@@ -90,32 +90,94 @@
 .active a{
 	background: #CC9900;
 }
- /* 底部二级菜单  */
- .active{
- 	display:none;
+ /* 左边固定菜单  */
+ .sx-left{
+ 	position: fixed;
+ 	z-index: 1000;
+ 	left: 10px;
  }
-.footer-nav ul{        
+.sx-left-top{
+	width: 150px;
+	height: 356px;
+    background-image:  url(../images/nav/left.png);	
+}
+.sx-left-ul{
+	position: absolute;
+	top:85px;
+	left: 5px;
+}
+.sx-left-ul li{
+	float: left;
+	text-align: center;
+}
+.sx-left-ul li h4{
+	color: #f40000;
+	font-family: "SimHei","SimSun","Microsoft YaHei";
+	padding-bottom: 8px;
+}
+.sx-left-li-x{                      /*左边关闭按钮*/
+   font-size: 14px;
+   color: #f40000;
+   position: absolute;
+   bottom: -20px;
+   right: 10px;
+}
+ /* 左边固定菜单结束  */
 
-	display: none;
+/* 右边固定菜单 */
+.sx-right{
+	position: fixed;
+ 	z-index: 1000;
+ 	right: 10px;
 }
-.footer-nav ul li{
-	padding: 0;
+.sx-right-top{
+	width: 150px;
+	height: 440px;
+    background-image:  url(../images/nav/right.png);		
 }
-.footer-nav ul a{
-	display:inline-block;
-	width: 145px;
-	height:40px;
-	line-height: 40px;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;	
+.sx-right-ul-1{                /*右边导航顶部文字  */
+	position: absolute;
+	top:110px;
+	right: 15px;	
 }
-.footer-nav ul a:hover{
+.sx-right-ul-1 li{
+	font-family: "SimHei","SimSun","Microsoft YaHei";
+	text-align: center;
+	color: #c42423;
+	padding:2px 0; 
+}
+.sx-right-ul-2{                 /*右边导航底部文字  */
+	position: absolute;
+	bottom: 38px;
+	right: 15px;
+}
+.sx-right-ul-2 li{
+	font-family: "SimHei","SimSun","Microsoft YaHei";
+	text-align: center;
+	font-size: 14px;
+	padding: 3.5px 0;
+}
+.sx-right-ul-2 h3{
     color: #ffffff;
-    background: #a7150d;
 }
- /* 底部二级结束  */
+.sx-right-ul-2 h4{
+	color: #ffffff;
+}
+.sx-right-ul-3{           /*右边返回顶部和关闭按钮  */
+	position: absolute; 
+	bottom: 8px;	
+	right:10px;
+}
+.sx-right-ul-3 li{         /*右边返回顶部和关闭按钮li  */
+	float: left;
+	padding-left: 28px;
+}
+.sx-right-ul-3 li a{       /*右边返回顶部和关闭按钮  */
+	color: #f40000;
+	font-size: 14px;
+}
+/* 右边固定菜单结束 */
+
 .footer{
 	max-width: 1200px;
 	margin: 0 auto;
